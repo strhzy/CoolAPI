@@ -1,0 +1,5 @@
+@EldoMvideoAPI_HostAddress = http://localhost:5166
+
+Accept: application/json
+
+
