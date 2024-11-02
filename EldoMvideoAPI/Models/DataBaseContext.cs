@@ -8,13 +8,13 @@ namespace EldoMvideoAPI.Models
             : base(options)
         {
         }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<Account> Accounts { get; set; }
-        public DbSet<Delivery> Deliveries { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<ProductOrder> ProductOrders { get; set; }
+        public DbSet<Category> categories { get; set; }
+        public DbSet<Product> products { get; set; }
+        public DbSet<Role> roles { get; set; }
+        public DbSet<User> users { get; set; }
+        public DbSet<Account> accounts { get; set; }
+        public DbSet<Delivery> deliveries { get; set; }
+        public DbSet<Order> orders { get; set; }
+        public DbSet<ProductOrder> product_orders { get; set; }
     }
 }
