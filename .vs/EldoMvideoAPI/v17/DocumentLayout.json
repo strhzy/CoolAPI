@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "EldoMvideoAPI\\Dockerfile",
               "ToolTip": "D:\\sharaga\\asp\\EldoMvideoAPI\\EldoMvideoAPI\\Dockerfile",
               "RelativeToolTip": "EldoMvideoAPI\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-02T00:19:02.561Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "EldoMvideoAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T22:26:55.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T22:26:55.627Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "EldoMvideoAPI\\EldoMvideoAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-01T22:11:50.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T22:11:50.214Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "EldoMvideoAPI\\Program.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:58:15.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T07:58:15.193Z"
             }
           ]
         }
