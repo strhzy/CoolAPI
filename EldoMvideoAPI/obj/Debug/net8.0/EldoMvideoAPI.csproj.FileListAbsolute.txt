@@ -288,3 +288,7 @@ D:\sharaga\asp\CoolAPI\EldoMvideoAPI\obj\Debug\net8.0\refint\EldoMvideoAPI.dll
 D:\sharaga\asp\CoolAPI\EldoMvideoAPI\obj\Debug\net8.0\EldoMvideoAPI.pdb
 D:\sharaga\asp\CoolAPI\EldoMvideoAPI\obj\Debug\net8.0\EldoMvideoAPI.genruntimeconfig.cache
 D:\sharaga\asp\CoolAPI\EldoMvideoAPI\obj\Debug\net8.0\ref\EldoMvideoAPI.dll
+D:\sharaga\asp\CoolAPI\EldoMvideoAPI\bin\Debug\net8.0\EldoMvideoAPI.staticwebassets.endpoints.json
+D:\sharaga\asp\CoolAPI\EldoMvideoAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\sharaga\asp\CoolAPI\EldoMvideoAPI\obj\Debug\net8.0\staticwebassets\msbuild.EldoMvideoAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\sharaga\asp\CoolAPI\EldoMvideoAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

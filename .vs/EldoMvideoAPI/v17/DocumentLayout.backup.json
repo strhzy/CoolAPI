@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\sharaga\\asp\\CoolAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|d:\\sharaga\\asp\\coolapi\\eldomvideoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|solutionrelative:eldomvideoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|d:\\sharaga\\asp\\coolapi\\eldomvideoapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|solutionrelative:eldomvideoapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|d:\\sharaga\\asp\\coolapi\\eldomvideoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|solutionrelative:eldomvideoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|d:\\sharaga\\asp\\coolapi\\eldomvideoapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|solutionrelative:eldomvideoapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|d:\\sharaga\\asp\\coolapi\\eldomvideoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|solutionrelative:eldomvideoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|d:\\sharaga\\asp\\coolapi\\eldomvideoapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|solutionrelative:eldomvideoapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|d:\\sharaga\\asp\\coolapi\\eldomvideoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{241F6F08-B4C2-4429-834E-48C604A9CF38}|EldoMvideoAPI\\EldoMvideoAPI.csproj|solutionrelative:eldomvideoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "EldoMvideoAPI\\Models\\Product.cs",
+              "ToolTip": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Models\\Product.cs",
+              "RelativeToolTip": "EldoMvideoAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:57:06.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EldoMvideoAPI\\appsettings.json",
+              "ToolTip": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\appsettings.json",
+              "RelativeToolTip": "EldoMvideoAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T07:57:43.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EldoMvideoAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EldoMvideoAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T07:54:31.719Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -36,46 +79,20 @@
               "RelativeDocumentMoniker": "EldoMvideoAPI\\docker-compose.yml",
               "ToolTip": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\docker-compose.yml",
               "RelativeToolTip": "EldoMvideoAPI\\docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-11-02T09:03:57.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "EldoMvideoAPI\\Dockerfile",
-              "ToolTip": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Dockerfile",
-              "RelativeToolTip": "EldoMvideoAPI\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-02T00:19:02.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "EldoMvideoAPI\\appsettings.json",
-              "ToolTip": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\appsettings.json",
-              "RelativeToolTip": "EldoMvideoAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T22:26:55.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Program.cs",
               "RelativeDocumentMoniker": "EldoMvideoAPI\\Program.cs",
               "ToolTip": "D:\\sharaga\\asp\\CoolAPI\\EldoMvideoAPI\\Program.cs",
               "RelativeToolTip": "EldoMvideoAPI\\Program.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAAAKUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADYBAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T07:58:15.193Z",
               "EditorCaption": ""

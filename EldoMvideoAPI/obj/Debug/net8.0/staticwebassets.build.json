@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "GydrpdQFbif+JhEEdblQo92u93ZM8tD5PTBZgBKxS0M=",
+  "Hash": "XkCQ8WS6HRl48x7GIFJMLYm/SoWANL6gYh/FPXQxh88=",
   "Source": "EldoMvideoAPI",
   "BasePath": "_content/EldoMvideoAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

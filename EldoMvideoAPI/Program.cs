@@ -310,11 +310,8 @@ app.MapDelete("/productorders/{id}", async (int id, DataBaseContext db) =>
     return Results.Ok();
 });
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
