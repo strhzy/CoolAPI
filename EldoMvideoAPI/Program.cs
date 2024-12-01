@@ -258,8 +258,8 @@ app.MapPut("/orders/{id}", async (int id, DataBaseContext db, Order updateOrder)
     if (order is null) return Results.NotFound();
     order.account_id = updateOrder.account_id;
     order.delivery_id = updateOrder.delivery_id;
-    order.date = updateOrder.date;
-    order.sum = updateOrder.sum;
+    order.order_date = updateOrder.order_date;
+    order.total_sum = updateOrder.total_sum;
     await db.SaveChangesAsync();
     return Results.NoContent();
 });
