@@ -224,8 +224,8 @@ internal class Program
             var delivery = await db.deliveries.FindAsync(id);
             if (delivery is null) return Results.NotFound();
             delivery.address = updateDelivery.address;
-            delivery.date = updateDelivery.date;
-            delivery.time = updateDelivery.time;
+            delivery.delivery_date = updateDelivery.delivery_date;
+            delivery.delivery_time = updateDelivery.delivery_time;
             await db.SaveChangesAsync();
             return Results.NoContent();
         });
