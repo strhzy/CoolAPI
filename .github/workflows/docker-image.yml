@@ -27,7 +27,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: .  # Путь к контексту
+          file: ./EldMvideoAPI/Dockerfile  # Укажите путь к Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/eldomvideoapi:latest
 
