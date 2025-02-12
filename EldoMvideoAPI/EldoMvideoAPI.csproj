@@ -12,6 +12,9 @@
   <ItemGroup>
     <Compile Remove="Controllers\**" />
     <Content Remove="Controllers\**" />
+    <Content Include="..\.dockerignore">
+      <Link>.dockerignore</Link>
+    </Content>
     <EmbeddedResource Remove="Controllers\**" />
     <None Remove="Controllers\**" />
   </ItemGroup>
