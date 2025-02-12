@@ -16,9 +16,9 @@ jobs:
       - name: 🔑 Подключение к серверу и деплой
         uses: appleboy/ssh-action@v0.1.7
         with:
-          host: ${{ "147.45.196.64" }}
-          username: ${{ "root" }}
-          key: ${{ "-----BEGIN OPENSSH PRIVATE KEY-----b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACBYgDr6BPKurUI7Sg/mzl+uuIjPGM+UXmO/9+HGUkx20AAAAKCIhHaliIR2pQAAAAtzc2gtZWQyNTUxOQAAACBYgDr6BPKurUI7Sg/mzl+uuIjPGM+UXmO/9+HGUkx20AAAAEBMBa2WxshUrvwZThAHPVu62tuE77Q7qjBfIfDNIR2TgViAOvoE8q6tQjtKD+bOX664iM8Yz5ReY7/34cZSTHbQAAAAFnN0cmh6eUBERVNLVE9QLTJTVEhOVUwBAgMEBQYH-----END OPENSSH PRIVATE KEY-----" }}
+          host: ${{ secrets.SERVER_HOST }}  # Убрал лишние кавычки
+          username: ${{ secrets.SERVER_USER }}  # Убрал лишние кавычки
+          key: ${{ secrets.SERVER_SSH_KEY }}          
           script: |
             cd /root/CoolAPI/EldoMvideoAPI
             git pull origin main
