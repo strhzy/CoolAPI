@@ -36,9 +36,6 @@ jobs:
     needs: push-docker
     runs-on: self-hosted
     steps:
-      - name: Login to Docker Hub
-        run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | sudo docker login -u ${{ vars.DOCKERHUB_USERNAME }} --password-stdin && sudo docker pull strhzy/eldomvideoapi
-
       - name: Get docker-compose
         run: sudo curl -OJ https://github.com/strhzy/CoolAPI/blob/master/EldoMvideoAPI/docker-compose.yml
 
