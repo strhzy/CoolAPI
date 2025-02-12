@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   api:
-    image: strhzy/eldomvideoapi:dev
+    image: strhzy/eldomvideoapi:latest
     build: .
       #context: . 
       #dockerfile: Dockerfile  
