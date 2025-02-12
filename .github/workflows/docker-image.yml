@@ -37,7 +37,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Get docker-compose
-        run: sudo curl -OJ https://github.com/strhzy/CoolAPI/blob/master/EldoMvideoAPI/docker-compose.yml
+        run: sudo curl -OJ https://raw.githubusercontent.com/strhzy/CoolAPI/refs/heads/master/EldoMvideoAPI/docker-compose.yml
 
       - name: Run docker-compose
         run: sudo docker-compose up
