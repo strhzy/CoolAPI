@@ -20,8 +20,9 @@ jobs:
           username: ${{ secrets.SERVER_USER }}  # Убрал лишние кавычки
           key: ${{ secrets.SERVER_SSH_KEY }}          
           script: |
+            cd /home/strhzy/CoolAPI
+            git pull origin master
             cd /home/strhzy/CoolAPI/EldoMvideoAPI
-            git pull origin main
             docker-compose down
             docker-compose up -d --build
             docker system prune -f
