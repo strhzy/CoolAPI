@@ -36,8 +36,8 @@ jobs:
     needs: push-docker
     runs-on: self-hosted
     steps:
-      - name: Get docker-compose
-        run: sudo curl -OJ https://raw.githubusercontent.com/strhzy/CoolAPI/refs/heads/master/EldoMvideoAPI/docker-compose.yml
+      - name: Rm image
+        run: sudo docker rmi strhzy/eldomvideoapi
         
       - name: Stop old docker
         run: sudo docker stop coolapi_api_1
@@ -45,5 +45,11 @@ jobs:
       - name: Rm old docker
         run: sudo docker rm coolapi_api_1
       
+      - name: Pull image
+        run: sudo docker pull strhzy/eldomvideoapi
+        
+      - name: Get docker-compose
+        run: sudo curl -OJ https://raw.githubusercontent.com/strhzy/CoolAPI/refs/heads/master/EldoMvideoAPI/docker-compose.yml
+        
       - name: Run docker-compose
         run: sudo docker-compose up -d
