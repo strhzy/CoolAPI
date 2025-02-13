@@ -9,9 +9,9 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["/EldoMvideoAPI.csproj", "EldoMvideoAPI/"]
-RUN dotnet restore "/EldoMvideoAPI.csproj"
+RUN dotnet restore "EldoMvideoAPI.csproj"
 COPY . . 
-WORKDIR "/src/"
+WORKDIR /src
 RUN dotnet build "EldoMvideoAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Этап публикации приложения
