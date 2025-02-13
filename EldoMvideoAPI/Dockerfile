@@ -1,5 +1,8 @@
 ﻿# Базовый образ с ASP.NET для запуска
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+# Если ты хочешь использовать конкретного пользователя, можно создать его
+# RUN adduser -D -u 1000 appuser
+# USER appuser
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
@@ -8,10 +11,10 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["EldoMvideoAPI.csproj", "EldoMvideoAPI/"]
-RUN dotnet restore "EldoMvideoAPI.csproj"
+COPY ["EldoMvideoAPI/EldoMvideoAPI.csproj", "EldoMvideoAPI/"]
+RUN dotnet restore "EldoMvideoAPI/EldoMvideoAPI.csproj"
 COPY . . 
-WORKDIR /src
+WORKDIR "/src/EldoMvideoAPI"
 RUN dotnet build "EldoMvideoAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Этап публикации приложения
