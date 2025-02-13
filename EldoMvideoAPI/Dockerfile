@@ -10,10 +10,10 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src/CoolAPI
-COPY ["EldoMvideoAPI/EldoMvideoAPI.csproj", "EldoMvideoAPI/"]
+COPY ["EldoMvideoAPI/EldoMvideoAPI.csproj", "CoolAPI/"]
 RUN dotnet restore "EldoMvideoAPI/EldoMvideoAPI.csproj"
 COPY . . 
-WORKDIR "/src/EldoMvideoAPI"
+WORKDIR "/src/CoolAPI"
 RUN dotnet build "EldoMvideoAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Этап публикации приложения
