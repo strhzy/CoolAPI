@@ -1,8 +1,7 @@
 ﻿# Базовый образ с ASP.NET для запуска
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 # Если ты хочешь использовать конкретного пользователя, можно создать его
-# RUN adduser -D -u 1000 appuser
-# USER appuser
+USER ghactions
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
