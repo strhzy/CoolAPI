@@ -16,5 +16,6 @@ namespace EldoMvideoAPI.Models
         public DbSet<Delivery> deliveries { get; set; }
         public DbSet<Order> orders { get; set; }
         public DbSet<ProductOrder> product_orders { get; set; }
+        public DbSet<Review> reviews { get; set; }
     }
 }
