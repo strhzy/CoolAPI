@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EldoMvideoAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45c417299b600f0a5e5ed21030c0ac901fef2ed4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e972a2313984d7db25952d99b5685654d04e4398")]
 [assembly: System.Reflection.AssemblyProductAttribute("EldoMvideoAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EldoMvideoAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
