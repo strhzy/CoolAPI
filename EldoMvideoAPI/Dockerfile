@@ -10,7 +10,7 @@ EXPOSE 8081
 # Образ для сборки с .NET SDK
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
+WORKDIR /src/CoolAPI
 COPY ["EldoMvideoAPI/EldoMvideoAPI.csproj", "EldoMvideoAPI/"]
 RUN dotnet restore "EldoMvideoAPI/EldoMvideoAPI.csproj"
 COPY . . 
