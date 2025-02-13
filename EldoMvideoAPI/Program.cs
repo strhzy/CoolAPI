@@ -10,7 +10,7 @@ internal class Program
 
         builder.Services.AddControllers(); // добавляем поддержку контроллеров
         builder.Services.AddDbContext<DataBaseContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
         builder.Services.AddEndpointsApiExplorer();

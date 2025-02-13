@@ -27,8 +27,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: .  # Путь к контексту
-          file: ./EldoMvideoAPI/Dockerfile  # Укажите путь к Dockerfile
+          context: .
+          file: ./EldoMvideoAPI/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/eldomvideoapi:latest
 
@@ -36,14 +36,20 @@ jobs:
     needs: push-docker
     runs-on: self-hosted
     steps:
+      - name: Stop old docker
+        run: sudo docker stop coolapi_api_1
+
+      - name: Rm old docker
+        run: sudo docker rm coolapi_api_1
+
+      - name: Rm image
+        run: sudo docker rmi strhzy/eldomvideoapi
+      
+      - name: Pull image
+        run: sudo docker pull strhzy/eldomvideoapi
+        
       - name: Get docker-compose
         run: sudo curl -OJ https://raw.githubusercontent.com/strhzy/CoolAPI/refs/heads/master/EldoMvideoAPI/docker-compose.yml
         
-      - name: Down old docker
-        run: sudo docker-compose down
-
-      - name: Clear unused dockers
-        run: sudo docker system prune -f
-      
       - name: Run docker-compose
         run: sudo docker-compose up -d
