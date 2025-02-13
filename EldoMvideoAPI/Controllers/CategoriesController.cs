@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EldoMvideoAPI.Controllers;
 
-[Route("api/categories")]
+[Route("api/[controller]")]
 [ApiController]
 public class CategoriesController : ControllerBase
 {

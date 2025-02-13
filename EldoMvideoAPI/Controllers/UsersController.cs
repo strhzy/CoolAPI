@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EldoMvideoAPI.Controllers;
 
-[Route("api/users")]
+[Route("api/[controller]")]
 [ApiController]
 public class UsersController : ControllerBase
 {

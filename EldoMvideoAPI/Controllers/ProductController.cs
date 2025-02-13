@@ -5,7 +5,7 @@ namespace EldoMvideoAPI.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-[Route("api/products")]
+[Route("api/[controller]")]
 [ApiController]
 public class ProductsController : ControllerBase
 {
